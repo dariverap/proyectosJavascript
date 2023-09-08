@@ -1,0 +1,75 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.imagen2 {
+    height: 370px;
+    width: autopx;
+}
+
+.eslogan {
+    width: 100%;
+    display: block;
+}
+
+.redes {
+    font-size: 5px;
+    height: 100px;
+    color: white;
+}
+
+.imagen {
+    width: 370px;
+    height: 100px;
+    background-color: red;
+}
+
+.larger-font {
+    font-size: 20px;
+    /* Tamaño de fuente deseado */
+}
+
+.nav-item:hover .nav-link {
+    background-color: #17A2B8;
+    font-size: 24px;
+    color: #ffffff !important;
+    transition: background-color 0.3s, font-size 0.3s, color 0.3s;
+}
+
+.imgprod {
+    width: 140%;
+    height: 250px;
+    padding: 10px;
+}
+
+.texto {
+    color: #fff;
+}
+
+.container {
+    background-color: #353a40;
+}
+
+@media screen and(min-width:480px) {
+    .imagen {
+        height: 300px;
+    }
+
+    .imgprod {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and(min-width:1024px) {
+    .imagen {
+        height: 600px;
+    }
+
+    .imgprod {
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+    }
+}
